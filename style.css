@@ -1,0 +1,99 @@
+body {
+  background: #ABB2B9;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333; 
+}
+
+header {
+  margin-bottom: 50px;
+  height: 50;
+  background: #ffffff;
+}
+
+
+.navbar-brand {
+  margin-left: 84px;
+  font-size: 24;
+  font-weight: bold;
+}
+
+.container {
+  margin-left: 84px;
+  margin-right: 84px;
+}
+.col-md-8 {
+  margin-left: 48px;
+  margin-right: 24px;
+  padding-top: 12px;
+  padding-left: 24px;
+  padding-bottom: 48px;
+  background-color: #ffffff;
+  
+}
+
+.col-md-3 {
+  margin-left: 16px;
+  padding-top: 48px;
+  padding-left: 48px;
+  background-color: #ffffff;
+  
+}
+
+.col-12{
+  
+  background-color: #ffffff;
+}
+
+.col-md-6 {
+  background-color: #ffffff;
+}
+
+h1 {
+  font-weight: bold;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+h2, h3 {
+  font-weight: bold;
+}
+
+.viz-image {
+  width: 140px;
+  height: 120px;
+  padding: 5px;
+}
+
+#intro-image {
+  width: 220px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+.vs-image {
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+
+}
+
+#col-12 {
+  margin-top: 48px;
+  margin-left: 48px;
+  padding: 48px;
+}
+
+.table-responsive-lg {
+  background-color: #ffffff;
+  margin-top: 48px;
+  margin-left: 10px;
+  font-size: medium;
+}
+

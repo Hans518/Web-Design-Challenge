@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Humidity</title>
+  </head>
+  <body>
+      <header>
+        <nav class="navbar navbar-light bg-light">
+          <a class="navbar-brand" href="index.html">Latitude</a>
+          <ul class="nav justify-content-end">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+                <a class="dropdown-item" href="humidity.html">Humidity</a>
+                <a class="dropdown-item" href="cloud_cover.html">Cloudiness</a>
+                <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+            </div>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="comparisons.html">Comparison</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Data</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="row">
+        <div class="col-md-8">
+            <h1>Latitude vs Humidity </h1>
+            <hr>
+            <section>
+                <img class="vs-image" src="images\lat_v_hum.png" alt="Lattitude vs temp" align=left>
+                <p>Humidity seems to have zero correlation with latitude. As it's been said on other plot analysis latitude alone is not a very good indicator of most weather patterns.</p>  
+            </section>
+        </div>
+        <div class="col-md-3">
+          <h2>Visualizations</h2>
+          <hr>
+          <a href="max_temp.html">
+            <img class="viz-image" src="images\lat_v_temp.png" alt="Lattitude vs temp"></a>
+            <a href="cloud_cover.html">
+            <img class="viz-image" src="images\lat_v_cloud.png" alt="Lattitude vs cloud cover"></a>
+            <a href="#">
+            <img class="viz-image" src="images\lat_v_hum.png" alt="Lattitude vs humidity"></a>
+            <a href="wind_speed.html">
+            <img class="viz-image" src="images\lat_v_wind.png" alt="Lattitude vs wind speed"></a>
+        
+        </div>
+      </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

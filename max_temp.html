@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Max Temperature</title>
+  </head>
+  <body>
+      <header>
+        <nav class="navbar navbar-light bg-light">
+          <a class="navbar-brand" href="index.html">Latitude</a>
+          <ul class="nav justify-content-end">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+            <div class="dropdown-menu">
+            <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+            <a class="dropdown-item" href="humidity.html">Humidity</a>
+            <a class="dropdown-item" href="cloud_cover.html">Cloudiness</a>
+            <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+            </div>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="comparisons.html">Comparison</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Data</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="row">
+        <div class="col-md-8">
+            <h1>Latitude vs Max Temperature </h1>
+            <hr>
+            <section>
+                <img class="vs-image" src="images\lat_v_temp.png" alt="Lattitude vs temp" align=left>  
+                <p>This plot is really the only plot that shows a weather related correlation based solely on lattitude. So as you can see here we have a scatter plot that contains all the datapoints pulled from the OpenWeatherMap API plotted by latitide. 
+                  The curve peaks around the equator. This is no surprising given what a pretty accepted and straight forward concept. That is the equator recieves the most direct exposure to the sun and spends less time in the shaddows. Ergo the closer to the equator you are, 
+                  the warmer the max tempreture will generally be. I say general because like the rest of the plots will show, there are many other factors that have more effect on the weather than latitude alone.
+                </p>
+            </section>
+        </div>
+        <div class="col-md-3">
+          <h2>Visualizations</h2>
+          <hr>
+          <a href="#">
+            <img class="viz-image" src="images\lat_v_temp.png" alt="Lattitude vs temp"></a>
+            <a href="cloud_cover.html">
+            <img class="viz-image" src="images\lat_v_cloud.png" alt="Lattitude vs cloud cover"></a>
+            <a href="humidity.html">
+            <img class="viz-image" src="images\lat_v_hum.png" alt="Lattitude vs humidity"></a>
+            <a href="wind_speed.html">
+            <img class="viz-image" src="images\lat_v_wind.png" alt="Lattitude vs wind speed"></a>
+        
+        </div>
+      </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
